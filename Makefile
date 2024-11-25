@@ -1,8 +1,8 @@
 NAME = philo
 
-SRCS = main_test3.c
+SRCS = main.c check_actions.c utils.c utils2.c time.c life_cycle.c
 
-OBJS = $(SRCS:.c=.o) #todos archivos que se llaman igual que los .c pero terminados en .o (aun no creados)
+OBJS = $(SRCS:.c=.o)
 
 FLAGS = -Wall -Werror -Wextra #-fsanitize=thread
 #FLAGS = -Wall -Werror -Wextra -fsanitize=address
